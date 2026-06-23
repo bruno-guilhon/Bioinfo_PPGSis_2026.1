@@ -124,7 +124,7 @@ unzip -l 1_seqs/seqs.qza | head -15
 # a qual amostra pertence cada read. Este passo separa por amostra.
 
 qiime demux emp-paired \
-  --i-seqs               seqs.qza \
+  --i-seqs               4_qza/seqs.qza \
   --m-barcodes-file      sample-metadata.tsv \
   --m-barcodes-column    barcode-sequence \
   --p-rev-comp-mapping-barcodes \
